@@ -1,15 +1,8 @@
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  display: inline-block;
-}
-
-nav a {
-  display: block;
-  padding: 6px, 12px;
-  text-decoration: none;
-}
+.container {
+  background-color: grey;
+  height: 200px;
+  width: 400px;
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px; }

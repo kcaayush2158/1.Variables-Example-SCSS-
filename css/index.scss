@@ -1,17 +1,12 @@
-nav {
-  ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
+$primary-color: grey;  // variables in sass
+$text-color:white;
 
-  li {
-    display: inline-block;
-  }
-
-  a {
-    display: block;
-    padding: 6px,12px;
-    text-decoration: none;
-  }
+.container{
+  background-color: $primary-color;
+  height: 200px;
+  width: 400px;
+  color:$text-color;
+  font-size: 40px;
+  text-align: center;
+  padding-top: 20px;
 }
